@@ -1,0 +1,38 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section{
+    margin:80px 0px 0px 550px;
+}
+h1{
+    margin-top: 20px;
+    color:blueviolet;
+    margin-left: 10px;
+}
+input{
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 17px;
+    border:2px solid black;
+}
+.ttt{
+    padding-top: 20px;
+    
+}
+.ttt ::placeholder{
+    color: black;
+}
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color:blue;
+    margin-left: 10px;
+    border:2px solid black;
+}
