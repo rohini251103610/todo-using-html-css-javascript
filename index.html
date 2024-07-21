@@ -10,27 +10,30 @@
 </head>
 
 <body>
-    <div class="section">
-        <div class="container">
-            <h1>BUILD TO-DO LIST</h1>
-            <input type="text" placeholder="Add some task">
-            <button onclick="add()">ADD</button>
-            <div id="add"></div>
-            <div class="ttt">
-            <input type="text" placeholder="I will practice html for 1 hour">
-            <button onclick="remove()">DELETE</button>
-            <div id="del"></div>
-            <input type="text" placeholder="I will give time for 2 hours css">
-            <button onclick="remove()">DELETE</button>
-            <div id="del"></div>
-            <input type="text" placeholder="Then i will have dinner">
-            <button onclick="remove()">DELETE</button>
-            <div id="del"></div>
-            </div>
-        </div>
+  
+
+    <div class="form" id="form">
+        <h1>BUILD TO-DO-LIST</h1>
+        <input type="text" id="myinput" placeholder="Add some task">
+        <button type="submit" id="btn" onclick="getinput()">Add</button><br><br>
+
+        <ul id="list">
+            <li>I will practice html for 1 hour
+                <button  type="submit" id="del" onclick="del(event)">Delete</button><br>
+            </li>
+        </ul>
+        <ul id="list">
+            <li>I will give time for 2 hours css
+                <button  type="submit" id="del" onclick="del(event)">Delete</button><br>
+            </li>
+        </ul>
+        <ul id="list">
+            <li>Then I will have dinner
+                <button class="btt" type="submit" id="del" onclick="del(event)">Delete</button>
+            </li>
+        </ul>
+        <ul id="listtask"></ul>
     </div>
-
-
 </body>
 
 </html>
